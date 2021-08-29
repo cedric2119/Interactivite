@@ -2165,6 +2165,8 @@ input, select, textarea {
 		opacity: 0.5;
 	}
 
+    
+     
 /* Image */
 
 	.image {
@@ -2252,6 +2254,13 @@ input, select, textarea {
 		cursor: default;
 	}
 
+/* Logo de l'UQAT */
+
+        .logoUQAT{
+            width:50%; 
+            vertical-align: middle;
+        }
+        
 /* Icon */
 
 	.icon {
@@ -2386,6 +2395,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+                    /* Logo de l'UQAT */
+
+                        .logoUQAT{
+                            width: 100%;
+                            padding: 2em 1em !important;
+                        }
+   
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
