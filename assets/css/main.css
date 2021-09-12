@@ -20,14 +20,90 @@
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
-  top: -5px;
-  left: 105%;
+  width: 300px;
+  top: 100%;
+  left: 50%;
+  margin-left: -150px; 
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.insert {
+    float: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%
+}
+
+.insert img {
+    width: 100%;
+}
+
+.insert span {
+    display: block;
+    font-size: 0.7em;
+    line-height: 1.5em;
+}
+
+iframe {
+    margin-left: auto !important;
+    margin-right: auto !important; 
+    display: block;
+    width:800px;
+    height:450px; 
+}
+
+@media screen and (max-width: 1280px) {
+    iframe {
+        width:640px;
+        height:360px; 
+    }
+    
+}
+
+@media screen and (max-width: 770px) {
+    iframe {
+        width:400px;
+        height: 225px;
+    }
+    .tooltip .tooltiptext {
+    position: fixed;
+    width: 80%;
+    top: 60%;
+    left: 10%;
+    margin-left: 0;   
+    
+    }
+
+    .insert {
+        float: none;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 80%
+    }
+}
+
+@media screen and (max-width: 450px) {
+    iframe {
+        width:80%;
+        height: 45%;
+    }
+    
+    .insert {
+        float: none;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 90%
+    }
+}
+
 
 /*
 	Directive by HTML5 UP
